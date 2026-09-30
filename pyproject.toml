@@ -1,0 +1,14 @@
+[project]
+name = "rosa-pizza-web-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.3",
+    "rosa-starter",
+    "streamlit>=1.64.0",
+]
+
+[tool.uv.sources]
+rosa-starter = { git = "https://github.com/zhouy185/rosa-starter.git" }
